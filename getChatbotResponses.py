@@ -124,7 +124,7 @@ def GetChatGptQuestionsAndAnswers(data, path, model):
 
 if __name__ == '__main__':
     # Need a file that has the JSON format and data.
-    with open('ModelResponses/results_alibayram;erurollm-9b-instruct.json', 'r', encoding='utf-8') as f:
+    with open('template.json', 'r', encoding='utf-8') as f:
         data = json.load(f)['Qs&As']
 
     GetClaudeQuestionsAndAnswers(data, 'ChatBotAnswers/Claude 3.7 Sonnet Answers/', 'Claude 3.7 Sonnet')
