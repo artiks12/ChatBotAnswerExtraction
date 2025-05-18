@@ -1,4 +1,4 @@
-# RagData
+# ChatBotAnswerExtraction
 This is the repository to extract answers from ChatBots. It is a part of the master thesis "Evaluation and Adaptation of Large Language Models for Question-Answering on Legislation" made in University of Latvia.
 
 ### How to Use
